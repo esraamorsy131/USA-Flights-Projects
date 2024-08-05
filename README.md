@@ -9,6 +9,12 @@
 
   ### 𝘛𝘰𝘰𝘭𝘴: Python Script 
       Ensuring Data Automation updates using KAGGLE TOKENS , We run Python code every time we need to upload recent data from kaggle.
+      
+      ## python Script
+      
+      ![Sales Data Analysis Dashboard]()
+
+      
   
 ## **Step2:Data Cleaning & Transformation**
 
