@@ -35,7 +35,7 @@
 
 ## Project Model
 
-![Sales Data Analysis Dashboard]()
+![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Model%20Diagram.PNG)
 
 ## Project Dashboard
 
