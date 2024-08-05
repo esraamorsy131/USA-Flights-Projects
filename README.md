@@ -45,6 +45,6 @@
 
 ![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Airport%20Dahboard.PNG)
 
-![Sales Data Analysis Dashboard]()
+![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Detailed%20Delay%20Time%20Dashboard.PNG)
 
 
