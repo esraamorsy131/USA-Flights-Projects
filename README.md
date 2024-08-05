@@ -12,7 +12,7 @@
       
    ## python Script
       
-      ![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Python%20Script.PNG)
+   ![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Python%20Script.PNG)
 
       
   
