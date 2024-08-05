@@ -10,9 +10,9 @@
   ### 𝘛𝘰𝘰𝘭𝘴: Python Script 
       Ensuring Data Automation updates using KAGGLE TOKENS , We run Python code every time we need to upload recent data from kaggle.
       
-      ## python Script
+   ## python Script
       
-      ![Sales Data Analysis Dashboard]()
+      ![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Python%20Script.PNG)
 
       
   
