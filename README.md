@@ -1,13 +1,13 @@
 # Problem Statement:
-# Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
+#Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
 
 
 
 # Project Steps and Tools:
 
-## **Step1:Importing Data From KAGGLE using Api Credentials Method **
+## Step1:Importing Data From KAGGLE using Api Credentials Method 
 
-  ### 𝘛𝘰𝘰𝘭𝘴: Python Script 
+  ###𝘛𝘰𝘰𝘭𝘴: Python Script 
       Ensuring Data Automation updates using KAGGLE TOKENS , We run Python code every time we need to upload recent data from kaggle.
       
    ## python Script
@@ -16,11 +16,13 @@
 
       
   
-## **Step2:Data Cleaning & Transformation**
+## Step2:Data Cleaning & Transformation
 
- ### 𝘛𝘰𝘰𝘭𝘴: 𝘔𝘪𝘤𝘳𝘰𝘴𝘰𝘧𝘵 𝘗𝘰𝘸𝘦𝘳 𝘘𝘶𝘦𝘳𝘺
+ ###𝘛𝘰𝘰𝘭𝘴: 𝘔𝘪𝘤𝘳𝘰𝘴𝘰𝘧𝘵 𝘗𝘰𝘸𝘦𝘳 𝘘𝘶𝘦𝘳𝘺
 
-   Ensuring data accuracy and consistency was crucial. We cleaned and transformed the data, addressing NULL values and other anomalies. This phase was all about improving data quality and reliability.
+   Ensuring data accuracy and consistency was crucial. 
+         - We cleaned and transformed the data, addressing NULL values and other anomalies. This phase was all about improving data quality and reliability.
+         - We adjusted time columns format to add calculated column for delay time and actually dealed with time zones differnces in this case 
 
 ## **Step3:𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴**
 
