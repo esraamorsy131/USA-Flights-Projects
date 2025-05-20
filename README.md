@@ -40,10 +40,11 @@ Displaying some insights acording to technical reqirements attached.
     DAX was our tool of choice for dynamic calculations and real-time data insights.
     Modeling data as star schema to facilitate analysis. using active and inactive relations between fact table and dimension table
 
-    Interactive Dashboard Link: https://app.powerbi.com/groups/02b66986-42c9-4a1b-9090-459956b4a268/reports/b384ba17-77f3-4372-a08f-0c1cd35f0e9a/78a3a69cbbbe6b3e3d6d?experience=power-bi
-
-
+   
 **This project was an exceptional opportunity to apply my theoretical knowledge in a real-world setting, enhancing my data integration, analysis, and visualization skills**
+ **Interactive Dashboard Link: https://app.powerbi.com/groups/02b66986-42c9-4a1b-9090-459956b4a268/reports/b384ba17-77f3-4372-a08f-0c1cd35f0e9a/78a3a69cbbbe6b3e3d6d?experience=power-bi**
+
+ 
 
 ## Project Model
 
