@@ -1,65 +1,72 @@
-# Problem Statement:
-Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
+# USA Flights Data Analysis – 2015
 
-# Target
-In this project, we perform a comprehensive analysis of all flights in 2015 across all major airports and air routes in the U.S. The goal is to obtain a complete overview of the aviation landscape, enabling us to make informed decisions based on detailed insights into flight patterns, delays, and route performance.
-Displaying some insights acording to technical reqirements attached.
+## Problem Statement
 
-# Project Steps and Tools:
+This dataset contains records for over 5,000,000 commercial airline flights in 2015, compiled by the U.S. Department of Transportation (DOT) for the Air Travel Consumer Report. Each record includes details such as airline name, flight number, origin and destination airports, flight distance, scheduled and actual departure/arrival times, and delay information.
 
-## Step1:Importing Data From KAGGLE using Api Credentials Method 
+## Project Objective 🎯
 
-  ### 𝘛𝘰𝘰𝘭𝘴: Python Script 
-      Ensuring Data Automation updates using KAGGLE TOKENS , We run Python code every time we need to upload recent data from kaggle.
-      
-   ## python Script
-      
-   ![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Python%20Script.PNG)
+The goal of this project is to perform an in-depth analysis of flight data across all major U.S. airports and routes in 2015. By identifying patterns in flight delays, route performance, and airport efficiency, the project helps uncover valuable insights to support data-driven decision-making in the aviation industry.
 
-      
+
+🧰 Step-by-Step Tools & Process Section:
+
+#### Step 1: Importing Data from Kaggle using API Credentials
+
+**Tools Used:** Python
+
+We automated the data retrieval process using Kaggle API tokens. This allowed us to seamlessly update the dataset by executing a Python script whenever new data is available.
+
+📌 Script Example:
+
+![Kaggle Python Script](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Python%20Script.PNG)
+
+    
   
-## Step2:Data Cleaning & Transformation
+### Step 2: Data Cleaning & Transformation
 
- ### 𝘛𝘰𝘰𝘭𝘴: 𝘔𝘪𝘤𝘳𝘰𝘴𝘰𝘧𝘵 𝘗𝘰𝘸𝘦𝘳 𝘘𝘶𝘦𝘳𝘺
+**Tools Used:** Power Query (Excel / Power BI)
 
-   Ensuring data accuracy and consistency was crucial. 
-         - We cleaned and transformed the data, addressing NULL values and other anomalies. This phase was all about improving data quality and reliability.
-         - We adjusted time columns format to add calculated column for delay time and actually dealed with time zones differnces in this case 
+- Removed missing and inconsistent values.
+- Standardized column formats, especially time fields.
+- Added calculated columns such as flight delay duration.
+- Handled time zone differences to accurately compute scheduled vs actual times.
 
-## **Step3:𝗗𝗮𝘁𝗮 𝗠𝗼𝗱𝗲𝗹𝗶𝗻𝗴**
+#### Step 3: Data Modeling
 
-  ### 𝘛𝘰𝘰𝘭𝘴: 𝘔𝘪𝘤𝘳𝘰𝘴𝘰𝘧𝘵 𝘗𝘰𝘸𝘦𝘳 𝘉𝘐
-  
-   Designing a star schema to structure the data for optimal performance and ease of analysis was key. This modeling set the stage for effective and efficient reporting.
+**Tools Used:** Power BI
 
-## **Step4: 𝗗𝗮𝘁𝗮 𝗩𝗶𝘀𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 & 𝗥𝗲𝗽𝗼𝗿𝘁𝗶𝗻𝗴**
+We structured the data using a **star schema** to improve performance and simplify relationships between facts and dimensions. We leveraged **active/inactive relationships** to support advanced time intelligence using DAX.
 
-  ### 𝘛𝘰𝘰𝘭𝘴: 𝘔𝘪𝘤𝘳𝘰𝘴𝘰𝘧𝘵 𝘗𝘰𝘸𝘦𝘳 𝘉𝘐, 𝘋𝘈𝘟.
-  
-    We created interactive dashboards and reports to visualize key metrics and provide actionable insights. We focused on customer analysis, product performance, and overall business insights.
-    DAX was our tool of choice for dynamic calculations and real-time data insights.
-    Modeling data as star schema to facilitate analysis. using active and inactive relations between fact table and dimension table
+### Step 4: Data Visualization & Reporting
 
-   
-**This project was an exceptional opportunity to apply my theoretical knowledge in a real-world setting, enhancing my data integration, analysis, and visualization skills**
+**Tools Used:** Power BI, DAX
 
- 
-**Interactive Dashboard Link: https://app.powerbi.com/groups/02b66986-42c9-4a1b-9090-459956b4a268/reports/b384ba17-77f3-4372-a08f-0c1cd35f0e9a/78a3a69cbbbe6b3e3d6d?experience=power-bi**
+- Developed multiple interactive dashboards focused on airlines, airports, delay patterns, and detailed performance metrics.
+- Used DAX for dynamic calculations and advanced KPIs.
+- Enabled real-time filtering and drill-down insights for stakeholders.
 
- 
+🔗 **Interactive Dashboard Link**:  
+[View in Power BI](https://app.powerbi.com/groups/02b66986-42c9-4a1b-9090-459956b4a268/reports/b384ba17-77f3-4372-a08f-0c1cd35f0e9a/78a3a69cbbbe6b3e3d6d?experience=power-bi)
 
-## Project Model
 
-![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Model%20Diagram.PNG)
 
-## Project Dashboard
+## Data Model
 
-![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Summary%20Dashboard.PNG)
+![Data Model](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Model%20Diagram.PNG)
 
-![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Airlines%20Dahboard.PNG)
+## Dashboards Preview
 
-![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Airport%20Dahboard.PNG)
+### Summary Dashboard  
+![Summary](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Summary%20Dashboard.PNG)
 
-![Sales Data Analysis Dashboard](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Detailed%20Delay%20Time%20Dashboard.PNG)
+### Airlines Dashboard  
+![Airlines](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Airlines%20Dahboard.PNG)
+
+### Airport Dashboard  
+![Airports](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Airport%20Dahboard.PNG)
+
+### Delay Time Details  
+![Delays](https://github.com/esraamorsy131/USA-Flights-Projects/blob/main/Detailed%20Delay%20Time%20Dashboard.PNG)
 
 
