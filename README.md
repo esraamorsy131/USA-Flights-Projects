@@ -47,7 +47,7 @@ We structured the data using a **star schema** to improve performance and simpli
 - Enabled real-time filtering and drill-down insights for stakeholders.
 
 🔗 **Interactive Dashboard Link**:  
-[View in Power BI](https://app.powerbi.com/groups/02b66986-42c9-4a1b-9090-459956b4a268/reports/b384ba17-77f3-4372-a08f-0c1cd35f0e9a/78a3a69cbbbe6b3e3d6d?experience=power-bi)
+[View in Power BI](https://app.powerbi.com/view?r=eyJrIjoiOWE1NDg0NjEtYTcwOS00OTU4LTlkNzEtZjhlM2U0NmIxYmY1IiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9)
 
 
 
